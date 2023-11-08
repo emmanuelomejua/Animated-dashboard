@@ -6,6 +6,7 @@ import Home from './pages/home/Home';
 import Login from './pages/login/Login';
 import Product from './pages/products/Product';
 import User from './pages/users/User';
+import './styles/global.scss'
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
       <section className='main'>
         <Navbar/>
         <section className='container'>
-           <section className="mainContainer">
+           <section className="menuContainer">
             <Menu/>
            </section>
 
