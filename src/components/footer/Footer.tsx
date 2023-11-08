@@ -1,10 +1,11 @@
-import React from 'react'
+import './footer.scss'
 
 const Footer = () => {
   return (
-    <div>
-      Footer
-    </div>
+    <section className='footer'>
+      <span className="">Admin</span>
+      <span className="">Lorem ipsum, dolor sit amet consectetur adipisicing elit</span>
+    </section>
   )
 }
 
