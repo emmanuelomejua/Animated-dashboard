@@ -7,3 +7,10 @@ export type chartProps = {
     percentage: number;
     chartData: object[];
 }
+
+export type barchartBoxProps = {
+    title: string;
+    color: string;
+    dataKey: string;
+    chartData: object[];
+  }
