@@ -6,5 +6,4 @@ export type chartProps = {
     number: number | string;
     percentage: number;
     chartData: object[];
-
 }
