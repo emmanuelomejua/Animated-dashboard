@@ -6,7 +6,7 @@ const BarChartBox = (props: barchartBoxProps) => {
   return (
     <div className='barchartbox'>
       <h2>{props.title}</h2>
-        <BarChart width={160} height={140} data={props.chartData}>
+        <BarChart width={200} height={140} data={props.chartData}>
           <Bar
             dataKey={props.dataKey} fill={props.color}
             

@@ -3,6 +3,7 @@ import ChartBox from '../../components/chartbox/ChartBox'
 import Topbox from '../../components/topbox/Topbox'
 import './home.scss'
 import BarChartBox from '../../components/barchartBox/BarChartBox'
+import PieChartBox from '../../components/piechart/PieChartt'
 
 const Home:React.FC = () => {
   return (
@@ -17,7 +18,7 @@ const Home:React.FC = () => {
             {...chartBoxProduct}
         />
         </div>
-        <div className="box box4">Box4</div>
+        <div className="box box4"><PieChartBox/></div>
       <div className="box box5">
         <ChartBox 
           {...chartBoxRevenue}
