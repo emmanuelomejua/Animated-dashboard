@@ -38,8 +38,8 @@ const PieChartBox = () => {
                 data={data}
                 cx={120}
                 cy={200}
-                innerRadius={65}
-                outerRadius={85}
+                innerRadius={'50%'}
+                outerRadius={'65%'}
                 paddingAngle={5}
                 fill='#8884d8'
                 dataKey='value'
